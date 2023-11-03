@@ -176,7 +176,7 @@ namespace NguyenHoangKhang_Test_3.Controllers
                 return StatusCode(500);
             }
         }
-        [HttpDelete("forgotpassword")]
+        [HttpPost("forgotpassword")]
         public async Task<IActionResult> ForgotPassword(ForgotPasswordDto forgotPassword)
         {
             try
